@@ -1,5 +1,3 @@
-import re
-
 
 def readFile(filename):  # 读取文件,返回列表
     f = open(filename, 'r', encoding='utf-8')
