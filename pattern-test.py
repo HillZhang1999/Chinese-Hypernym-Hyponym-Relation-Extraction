@@ -120,8 +120,8 @@ def quChong(filename1,filename2):#去重
     f.close()
 
 def main():
-    #train('sentenceWithIsA.txt','WordPairs-isA-v4.txt')
-    print(hearst_pattern('Linux   只是 一个 符合   POSIX   标准 的 内核'.split()))
+    train('sentenceWithIsA.txt','WordPairs-isA-v4.txt')
+    #print(hearst_pattern('Linux   只是 一个 符合   POSIX   标准 的 内核'.split()))
     #quChong('WordPairs-isA-v4.txt','WordPairs-isA-v5.txt')
     #chooseWordPairs('WordPairs-isA-v5.txt', 'WordPairs-isA-v6.txt', 'words.conll')
 #主函数
