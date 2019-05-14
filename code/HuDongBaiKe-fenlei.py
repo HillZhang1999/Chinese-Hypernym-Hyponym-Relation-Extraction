@@ -4,7 +4,7 @@ import re
 import urllib
 import time
 global count
-count=82708
+count=1
 
 def check_contain_chinese(check_str):#判断字符串是否包含中文
     for ch in check_str:
