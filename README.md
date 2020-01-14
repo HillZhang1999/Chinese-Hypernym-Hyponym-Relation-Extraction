@@ -11,11 +11,11 @@
 * pattern_Syntactic_oneOf.py：基于“之一”依存句法模板的抽取脚本
 * pattern_Syntactic_deng.py：基于“等”依存句法模板的抽取脚本
 #### 基于词法模板的抽取脚本
-* pattern_Syntactic.py：基于词法模板的抽取脚本父类文件
-* pattern_Syntactic_contain.py：基于“包含”词法模板的抽取脚本
-* pattern_Syntactic_isA.py：基于“是一个”词法模板的抽取脚本
-* pattern_Syntactic_oneOf.py：基于“之一”词法模板的抽取脚本
-* pattern_Syntactic_deng.py：基于“等”词法模板的抽取脚本
+* pattern_Lexical.py：基于词法模板的抽取脚本父类文件
+* pattern_Lexical_contain.py：基于“包含”词法模板的抽取脚本
+* pattern_Lexical_isA.py：基于“是一个”词法模板的抽取脚本
+* pattern_Lexical_oneOf.py：基于“之一”词法模板的抽取脚本
+* pattern_Lexical_deng.py：基于“等”词法模板的抽取脚本
 
 ### dictionary文件夹：词典文件
 * word_pairs_true.txt：高置信度的上下位词对正例集合
