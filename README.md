@@ -6,16 +6,16 @@
 
 #### 基于依存句法模板的抽取脚本
 * pattern_Syntactic.py：基于依存句法模板的抽取脚本父类文件
-* pattern_Syntactic_contain.py：基于“包含”依存句法模板的抽取脚本（暂未公开）
-* pattern_Syntactic_isA.py：基于“是一个”依存句法模板的抽取脚本（暂未公开）
-* pattern_Syntactic_oneOf.py：基于“之一”依存句法模板的抽取脚本（暂未公开）
-* pattern_Syntactic_deng.py：基于“等”依存句法模板的抽取脚本（暂未公开）
+* pattern_Syntactic_contain.py：基于“包含”依存句法模板的抽取脚本
+* pattern_Syntactic_isA.py：基于“是一个”依存句法模板的抽取脚本
+* pattern_Syntactic_oneOf.py：基于“之一”依存句法模板的抽取脚本
+* pattern_Syntactic_deng.py：基于“等”依存句法模板的抽取脚本
 #### 基于词法模板的抽取脚本
 * pattern_Lexical.py：基于词法模板的抽取脚本父类文件
-* pattern_Lexical_contain.py：基于“包含”词法模板的抽取脚本（暂未公开）
-* pattern_Lexical_isA.py：基于“是一个”词法模板的抽取脚本（暂未公开）
-* pattern_Lexical_oneOf.py：基于“之一”词法模板的抽取脚本（暂未公开）
-* pattern_Lexical_deng.py：基于“等”词法模板的抽取脚本（暂未公开）
+* pattern_Lexical_contain.py：基于“包含”词法模板的抽取脚本
+* pattern_Lexical_isA.py：基于“是一个”词法模板的抽取脚本
+* pattern_Lexical_oneOf.py：基于“之一”词法模板的抽取脚本
+* pattern_Lexical_deng.py：基于“等”词法模板的抽取脚本
 
 ### dictionary文件夹：词典文件
 * word_pairs_true.txt：高置信度的上下位词对正例集合
@@ -24,14 +24,11 @@
 * 其他文件：用于替换模板中占位符的谓语、量词等词典
 
 ### data文件夹：数据文件
-* new_hypernymy_600-task.txt：首次标注的600个词对（词法模板和句法模板抽取结果的并集）（暂未公开）
-* hypernymy_mix_dif_600-task.txt：第二次标注的600个词对（词法模板和句法模板抽取结果的差集）（暂未公开）
-* new_hypernymy_1600-task.txt：用于计算准确度标注的1600个词对（暂未公开）
+* new_hypernymy_600-task.txt：首次标注的600个词对（词法模板和句法模板抽取结果的并集）
+* hypernymy_mix_dif_600-task.txt：第二次标注的600个词对（词法模板和句法模板抽取结果的差集）
+* new_hypernymy_1600-task.txt：用于计算准确度标注的1600个词对
 
 ### 工作日志：工作进展
 
 ## 脚本运行说明：
   将dictionary文件夹中的词典放至code文件夹中，修改各模板抽取脚本main函数中的源文件名，即可运行。词法模板需要进行分词、词性标注预处理工作，句法模板需要进行分词、词性标注、依存句法标注预处理工作，文件格式参考CoNLL格式。
-
-## 开源说明：
-  目前，我们暂时公开了部分核心代码。完整代码和标注数据我们将在论文录用后全部公开。
